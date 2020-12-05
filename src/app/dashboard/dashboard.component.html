@@ -1,0 +1,9 @@
+<div class="container">
+    <h3> Welcome {{role}}</h3>
+    
+    <div class="button-container">
+        <button>View Invoice</button>
+        <button *ngIf="role === 'admin' || role === 'superAdmin'">Update Invoice</button>
+        <button *ngIf="role === 'superAdmin'">Create Invoice</button>
+    </div>
+</div>d

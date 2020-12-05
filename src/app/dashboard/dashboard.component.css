@@ -1,0 +1,31 @@
+.container {
+    flex-direction: column;
+    line-height: 3;
+}
+
+.button-container {
+    display: flex;
+    width: 80%;
+    justify-content: space-evenly;
+}
+
+h3 {
+    margin-top: -20%;
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+button {
+    width: 150px;
+    outline: none;
+    border: none;
+    font-size: 1.2rem;
+    padding: 7px;
+    background-color: hsl(214, 84%, 54%);
+    color: #ffffff;
+    border-radius: 7px;
+}
+
+button:hover {
+    background-color:  hsl(214, 84%, 45%);
+}

@@ -1,0 +1,45 @@
+label {
+    margin-bottom: 25px;
+}
+
+.container {
+    flex-direction: column;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    width: 250px;
+    padding: 10px;
+    font-size: 1.1rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: black;
+    outline: none;
+}
+
+h3 {
+    font-size: 3rem;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+input:active, input:focus {
+    border-color:  hsl(214, 84%, 54%);
+}
+
+button {
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    outline: none;
+    color: #ffffff;
+    background-color: hsl(214, 84%, 45%);
+}
